@@ -4,14 +4,12 @@ Number::Compare compiles a simple comparison to an anonymous subroutine,
 which you can call with a value to be tested again.
 
 Runtime requirements:
-  perl-5.10.0-3
+  perl-5.10.0-5
 
 Build requirements:
-(besides corresponding -devel packages)
-  binutils-20060817-1
-  cygport-0.3.9-1
-  gcc-core-3.4.4-3
-  make-3.81-1
+  cygport-0.9.9-1
+  make-3.81-2
+  perl-5.10.0-5
 
 Canonical website:
   http://search.cpan.org/dist/Number-Compare/
@@ -34,22 +32,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/perl5/vendor_perl/5.10/Number/Compare.pm
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Number/Compare/.packlist
-  /usr/share/doc/perl-Number-Compare-0.01/Changes
-  /usr/share/man/man3/Number.Compare.3pm.gz
-
-------------------
-
 Port Notes:
 
------ version 0.01-2 -----
-Rebuilt for perl-5.10.
-
------ version 0.01-1 -----
-Initial release for Cygwin.
+----- version 0.01-3 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
