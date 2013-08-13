@@ -1,0 +1,10 @@
+CPAN_AUTHOR=rclamp
+inherit perl
+
+NAME="perl-Number-Compare"
+VERSION=0.03
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl numerical comparison module"
+DESCRIPTION="Number::Compare compiles a simple comparison to an anonymous
+subroutine, which you can call with a value to be tested again."
